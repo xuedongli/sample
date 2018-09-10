@@ -9,6 +9,7 @@
 
   	<div class="container">
     	<div class="col-md-offse-1 col-md-10">
+        @include('shared._messages')
     		@yield('content')
     		@include('layouts._footer')
     	</div>
